@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER">
+    <ComboBox fx:id="jobComboBox" promptText="Select Job Title"/>
+    <CheckBox fx:id="fulltimeCheckBox" text="Full Time"/>
+    <ComboBox fx:id="genderComboBox" promptText="Select Gender"/>
+    <Button fx:id="searchButton" text="Search"/>
+    <ListView fx:id="employeeListView"/>
+    <Label fx:id="resultsCountLabel"/>
+</VBox>
+
